@@ -1,20 +1,22 @@
 PORTAL KINERJA AHASS — CORPORATE LIGHT (BOLD)
 
-Pembaruan versi ini:
-- Font dibuat lebih besar dan lebih tegas.
-- Judul utama, heading, judul kartu, deskripsi, dan tombol diperbesar.
-- Kartu dashboard lebih tinggi dan memiliki ruang konten yang lebih lega.
-- Area konten diperlebar untuk memanfaatkan layar desktop dengan lebih baik.
-- Tetap menggunakan white background, navy blue accents, serta detail emas/teal yang halus.
-- Responsif untuk desktop dan mobile.
+Perubahan teks:
+- Judul utama: Portal Untuk Berbagai KPI AHASS
+- Subjudul: Satu Pintu untuk mengakses Pencapaian Digital, LCR dan AMORE
+- Deskripsi Performa Digital: Rekapitulasi Performance KPI Digital AHASS
+- Deskripsi Pencapaian LCR: Tren Pencapaian LCR
+- Deskripsi Performa AMORE: Tren Kualitas pengerjaan LCR melalui parameter AMORE.
+- Menghapus teks “Data dan analisis dalam satu akses”.
 
-Dashboard tetap independen dan dibuka di tab baru:
+Tampilan tetap menggunakan Corporate Light dengan font tegas dan besar.
+Ketiga dashboard tetap independen dan dibuka di tab baru.
+
+Tautan:
 1. Performa Digital — https://tsd-asmosumsel.github.io/Performance-Digital-ASMOSumsel/
 2. Pencapaian LCR — https://tsd-asmosumsel.github.io/LCR-Achievement-Dashboard/
 3. Performa AMORE — https://tsd-asmosumsel.github.io/amore-dashboard-sumsel/
 
 Cara memasang:
 1. Ekstrak ZIP.
-2. Buka repository ahass-performance-portal di GitHub.
-3. Ganti index.html, style.css, dan script.js di root repository.
-4. Commit perubahan lalu refresh GitHub Pages.
+2. Ganti index.html, style.css, dan script.js di root repository ahass-performance-portal.
+3. Commit perubahan lalu refresh GitHub Pages.
