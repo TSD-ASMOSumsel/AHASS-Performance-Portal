@@ -3,125 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#080f20">
-  <meta name="description" content="Portal terpusat untuk dashboard kinerja Astra Motor Sumsel.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Portal terpadu dashboard kinerja ASMO Sumsel.">
   <title>Portal Kinerja AHASS | ASMO Sumsel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="ambient ambient-one" aria-hidden="true"></div>
-  <div class="ambient ambient-two" aria-hidden="true"></div>
-
-  <header class="topbar">
-    <a class="brand" href="./" aria-label="Beranda Portal Kinerja AHASS">
-      <span class="brand-mark">A</span>
+  <div class="top-rule"></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="ASMO Sumsel Portal">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
       <span class="brand-copy">
         <strong>ASMO SUMSEL</strong>
-        <small>INTELIJEN KINERJA</small>
+        <small>PORTAL KINERJA</small>
       </span>
     </a>
-    <span class="status"><span class="status-dot"></span> PORTAL DASHBOARD</span>
+    <div class="header-label"><span class="status-dot"></span> DASHBOARD TERINTEGRASI</div>
   </header>
 
-  <main class="container">
+  <main>
     <section class="hero">
-      <div class="eyebrow"><span></span> ANALITIK TERPADU</div>
-      <h1>Pantau kinerja lebih mudah.<br><span>Ambil keputusan lebih tepat.</span></h1>
-      <p class="hero-description">
-        Satu pintu untuk mengakses kinerja digital, pencapaian LCR,
-        dan performa operasional AHASS.
-      </p>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ANALITIK TERPADU</p>
+        <h1>Pantau kinerja lebih mudah.<br><span>Ambil keputusan lebih tepat.</span></h1>
+        <p class="hero-description">Satu pintu untuk mengakses kinerja digital, pencapaian LCR, dan performa operasional AHASS.</p>
+        <div class="hero-meta">
+          <span class="meta-icon" aria-hidden="true">↗</span>
+          <span>Data dan analisis dalam satu akses</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-grid"></div>
+        <div class="art-panel panel-back"></div>
+        <div class="art-panel panel-front">
+          <div class="panel-top"><i></i><i></i><i></i><span>PERFORMANCE OVERVIEW</span></div>
+          <div class="chart-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
+          <div class="chart-base"></div>
+          <div class="chart-metric"><small>BUSINESS INSIGHT</small><strong>Data → Action</strong></div>
+        </div>
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+      </div>
     </section>
 
-    <section class="dashboard-section" aria-labelledby="dashboard-heading">
+    <section class="workspace" aria-labelledby="workspace-title">
       <div class="section-heading">
         <div>
-          <p class="section-kicker">RUANG KERJA ANDA</p>
-          <h2>Pilih dashboard</h2>
+          <p class="eyebrow">RUANG KERJA ANDA</p>
+          <h2 id="workspace-title">Pilih dashboard</h2>
+          <p class="section-description">Pilih area analisis yang ingin Anda buka.</p>
         </div>
-        <span class="dashboard-count">3 DASHBOARD</span>
+        <div class="count-pill"><span>03</span> DASHBOARD</div>
       </div>
 
       <div class="dashboard-grid">
-        <a class="dashboard-card digital" data-dashboard="digital"
-           href="https://tsd-asmosumsel.github.io/Performance-Digital-ASMOSumsel/"
-           target="_blank" rel="noopener noreferrer">
-          <div class="card-top">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <rect x="3" y="4" width="18" height="13" rx="2"/>
-                <path d="M8 21h8M12 17v4M7 13l3-3 3 2 4-5"/>
-              </svg>
-            </span>
-            <span class="card-index">01</span>
-          </div>
+        <a class="dashboard-card digital" href="https://tsd-asmosumsel.github.io/Performance-Digital-ASMOSumsel/" target="_blank" rel="noopener noreferrer">
+          <div class="card-topline"><span class="card-index">01</span><span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="13" rx="1.8"></rect><path d="M8 21h8M12 17v4M7.5 13l3-3 2.5 2 3.5-4"></path></svg></span></div>
           <p class="card-category">ANALITIK DIGITAL &amp; KANAL</p>
           <h3>Performa Digital</h3>
-          <p class="card-description">
-            Analisis kinerja kanal digital, interaksi pelanggan,
-            dan hasil bisnis dari berbagai sumber data digital.
-          </p>
+          <p class="card-description">Analisis kinerja kanal digital, interaksi pelanggan, dan hasil bisnis dari berbagai sumber data digital.</p>
           <div class="card-footer"><span>Buka dashboard</span><span class="arrow" aria-hidden="true">↗</span></div>
         </a>
 
-        <a class="dashboard-card lcr" data-dashboard="lcr"
-           href="https://tsd-asmosumsel.github.io/LCR-Achievement-Dashboard/"
-           target="_blank" rel="noopener noreferrer">
-          <div class="card-top">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M4 19V5M4 19H21"/>
-                <path d="m7 15 4-5 4 2 5-7"/>
-                <path d="M16 5h4v4"/>
-              </svg>
-            </span>
-            <span class="card-index">02</span>
-          </div>
+        <a class="dashboard-card lcr" href="https://tsd-asmosumsel.github.io/LCR-Achievement-Dashboard/" target="_blank" rel="noopener noreferrer">
+          <div class="card-topline"><span class="card-index">02</span><span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19.5V5.5M4 19.5h16"></path><rect x="7" y="12" width="3" height="5.5" rx=".5"></rect><rect x="12" y="8.5" width="3" height="9" rx=".5"></rect><rect x="17" y="5" width="3" height="12.5" rx=".5"></rect></svg></span></div>
           <p class="card-category">LAYANAN &amp; PENCAPAIAN</p>
           <h3>Pencapaian LCR</h3>
-          <p class="card-description">
-            Pantau tren pencapaian LCR, peringkat kinerja,
-            dan daftar prioritas tindakan untuk operasional layanan.
-          </p>
+          <p class="card-description">Pantau tren pencapaian LCR, peringkat kinerja, dan daftar prioritas tindakan untuk operasional layanan.</p>
           <div class="card-footer"><span>Buka dashboard</span><span class="arrow" aria-hidden="true">↗</span></div>
         </a>
 
-        <a class="dashboard-card amore" data-dashboard="amore"
-           href="https://tsd-asmosumsel.github.io/amore-dashboard-sumsel/"
-           target="_blank" rel="noopener noreferrer">
-          <div class="card-top">
-            <span class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <rect x="3" y="3" width="8" height="8" rx="2"/>
-                <rect x="13" y="3" width="8" height="5" rx="2"/>
-                <rect x="13" y="10" width="8" height="11" rx="2"/>
-                <rect x="3" y="13" width="8" height="8" rx="2"/>
-              </svg>
-            </span>
-            <span class="card-index">03</span>
-          </div>
+        <a class="dashboard-card amore" href="https://tsd-asmosumsel.github.io/amore-dashboard-sumsel/" target="_blank" rel="noopener noreferrer">
+          <div class="card-topline"><span class="card-index">03</span><span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path><path d="m3.5 7 6-3 6 7 5-5"></path></svg></span></div>
           <p class="card-category">OPERASIONAL &amp; KINERJA</p>
           <h3>Performa AMORE</h3>
-          <p class="card-description">
-            Pantau kinerja operasional dan indikator bisnis utama
-            melalui dashboard AMORE yang sudah tersedia.
-          </p>
+          <p class="card-description">Pantau kinerja operasional dan indikator bisnis utama melalui dashboard AMORE yang sudah tersedia.</p>
           <div class="card-footer"><span>Buka dashboard</span><span class="arrow" aria-hidden="true">↗</span></div>
         </a>
       </div>
     </section>
-
-    <section class="info-strip">
-      <span class="info-icon" aria-hidden="true">i</span>
-      <p>Setiap dashboard berjalan secara mandiri. Koneksi data, filter, dan logika pelaporan yang sudah ada tetap terpisah dari portal ini.</p>
+    <section class="access-note">
+      <span class="note-mark" aria-hidden="true">i</span>
+      <p>Setiap dashboard dibuka di tab baru dan tetap menggunakan sumber data serta koneksinya masing-masing.</p>
     </section>
   </main>
 
-  <footer class="footer">
-    <span>ASMO SUMSEL <span class="footer-separator">/</span> INTELIJEN KINERJA</span>
-    <span>PORTAL ANALITIK INTERNAL <span id="year"></span></span>
+  <footer class="site-footer">
+    <span>© <span id="year"></span> ASMO SUMSEL</span>
+    <span>INTEGRATED PERFORMANCE PORTAL</span>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
