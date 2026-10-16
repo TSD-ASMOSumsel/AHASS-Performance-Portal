@@ -20,3 +20,5 @@ Cara memasang:
 1. Ekstrak ZIP.
 2. Ganti index.html, style.css, dan script.js di root repository ahass-performance-portal.
 3. Commit perubahan lalu refresh GitHub Pages.
+
+Catatan: bagian pemberitahuan di bawah kartu dashboard sudah dihapus sesuai permintaan.
