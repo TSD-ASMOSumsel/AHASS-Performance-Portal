@@ -1,26 +1,27 @@
-AHASS PERFORMANCE DASHBOARD PORTAL
-===================================
+PORTAL KINERJA DASHBOARD AHASS
+================================
 
-FILES
+Isi paket:
 - index.html
 - style.css
 - script.js
+- README.txt
 
-DASHBOARD ORDER AND LINKS
-1. Digital Performance
+Urutan dashboard:
+1. Performa Digital
    https://tsd-asmosumsel.github.io/Performance-Digital-ASMOSumsel/
-2. LCR Achievement Performance
+2. Pencapaian LCR
    https://tsd-asmosumsel.github.io/LCR-Achievement-Dashboard/
-3. AMORE Performance
+3. Performa AMORE
    https://tsd-asmosumsel.github.io/amore-dashboard-sumsel/
 
-PUBLISH WITH GITHUB PAGES
-1. Create or open the public repository ahass-performance-portal.
-2. Upload these three files to the repository root (README.txt is optional).
-3. Open Settings > Pages.
-4. Set Source to "Deploy from a branch".
-5. Select branch "main" and folder "/ (root)", then Save.
-6. Wait for the GitHub Pages URL to become available.
+CARA MEMPERBARUI GITHUB PAGES
+1. Ekstrak ZIP ini.
+2. Buka repositori GitHub ahass-performance-portal.
+3. Unggah dan ganti index.html, style.css, dan script.js di folder utama repositori.
+4. Commit perubahan ke branch main.
+5. Pastikan GitHub Pages menggunakan branch main dan folder / (root).
+6. Tunggu proses deployment selesai, lalu buka URL portal.
 
-All dashboard links are configured. Each dashboard opens in a new tab and
-keeps its own code and data connection independent of this portal.
+Ketiga dashboard terbuka di tab baru. Kode dan koneksi data masing-masing dashboard
+tetap terpisah dan tidak diubah oleh portal ini.
