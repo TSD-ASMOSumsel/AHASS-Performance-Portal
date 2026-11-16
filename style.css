@@ -65,3 +65,7 @@ h3{margin:0;color:var(--navy-deep);font-size:25px;letter-spacing:-.03em;font-wei
 @media(max-width:1000px){.hero{padding-right:30px}.hero-art{right:-100px;opacity:.22}.hero-copy{max-width:680px}.dashboard-grid{grid-template-columns:1fr 1fr}.dashboard-card:last-child{grid-column:1/-1;min-height:290px}}
 @media(max-width:620px){.site-header{min-height:76px;padding:0 18px}.header-label{font-size:8px;letter-spacing:.05em}.brand-copy strong{font-size:13px}main{padding:0 15px}.hero{min-height:340px;margin:18px 0 42px;padding:35px 22px}.hero-art{right:-185px;opacity:.14}h1{font-size:clamp(31px,8vw,40px)}.hero-description{font-size:14px}.section-heading{align-items:start;gap:12px}h2{font-size:27px}.count-pill{padding:9px;font-size:8px;white-space:nowrap}.dashboard-grid{grid-template-columns:1fr;gap:14px}.dashboard-card,.dashboard-card:last-child{grid-column:auto;min-height:290px;padding:24px}.card-category{margin-top:21px}h3{font-size:23px}.card-description{font-size:14px}.access-note{margin-bottom:30px;align-items:start}.site-footer{padding:20px;flex-direction:column;font-size:9px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Unit Entry dashboard accent */
+.dashboard-card.unit-entry { border-top-color: #5277a5; }
+.unit-entry .card-icon { background: #edf2f9; color: #355d8c; }
