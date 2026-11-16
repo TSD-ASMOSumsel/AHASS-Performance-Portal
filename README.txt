@@ -1,14 +1,18 @@
-PORTAL KINERJA AHASS — CORPORATE LIGHT
+PORTAL KINERJA AHASS — CORPORATE LIGHT, SYMMETRIC LAYOUT
 
-Dashboard yang tersedia:
-1. Performa Digital — https://tsd-asmosumsel.github.io/Performance-Digital-ASMOSumsel/
-2. Pencapaian LCR — https://tsd-asmosumsel.github.io/LCR-Achievement-Dashboard/
-3. Performa AMORE — https://tsd-asmosumsel.github.io/amore-dashboard-sumsel/
-4. Performa Unit Entry — https://tsd-asmosumsel.github.io/Unit-Entry-Performance/
+Urutan dashboard:
+1. Performa Unit Entry
+2. Performa Digital
+3. Pencapaian LCR
+4. Performa AMORE
 
-Pembaruan: menambahkan dashboard Performa Unit Entry sebagai dashboard keempat dan memperbarui penghitung menjadi 04 DASHBOARD. Tiga dashboard sebelumnya tetap pada urutan semula. Desain Corporate Light, font bold, teks revisi, dan penghapusan catatan di bawah kartu tetap dipertahankan. Semua dashboard dibuka di tab baru.
+Layout:
+- Desktop: 4 kartu sejajar dengan lebar dan tinggi seragam.
+- Tablet: 2 kolom.
+- Mobile: 1 kolom.
+- Semua tautan membuka dashboard di tab baru.
 
 Cara memasang:
 1. Ekstrak ZIP.
-2. Ganti index.html, style.css, dan script.js di root repository AHASS-Performance-Portal.
-3. Commit perubahan lalu refresh GitHub Pages.
+2. Ganti index.html, style.css, dan script.js pada root repository AHASS-Performance-Portal.
+3. Commit perubahan dan tunggu GitHub Pages selesai deploy.
